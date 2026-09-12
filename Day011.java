@@ -9,5 +9,6 @@ public class PengenalanString {
       System.out.print("Masukkan nama kamu = ");
       //mengambil teks yang diketik pengguna lalu menyimpannya ke variabel nama.
       nama = input.nextLine();
+        input.close
     }
 }
