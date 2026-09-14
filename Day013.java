@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
-        System.out.println("Batas type data: " + Byte.MIN_VALUE + " sampai " + Byte.MAX_VALUE + " Batas type int: " + Integer.MIN_VALUE + " sampai " + Integer.MAX_VALUE);
+        System.out.println("Batas type byte: " + Byte.MIN_VALUE + " sampai " + Byte.MAX_VALUE + " Batas type int: " + Integer.MIN_VALUE + " sampai " + Integer.MAX_VALUE);
 
         Scanner i = new Scanner(System.in);
         System.out.print("Masukkan nama : ");
