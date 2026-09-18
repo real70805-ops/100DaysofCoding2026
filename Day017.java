@@ -1,6 +1,6 @@
 public class Day017 {
   public static void main(String[] args) {
-    int a = 10;
+    int a = 12;
     int b = 6;
     System.out.printf("nilai a: %d \n",a);
     System.out.printf("nilai b: %d \n",b);
