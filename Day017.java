@@ -5,14 +5,14 @@ public class Day017 {
     System.out.printf("nilai a: %d \n",a);
     System.out.printf("nilai b: %d \n",b);
     a += b;
-    System.out.println("nilai a + b = " + (a+=b));
+    System.out.println("nilai a + b = " + a);
     a -= b;
-    System.out.println("nilai a - b = " + (a-=b));
+    System.out.println("nilai a - b = " + a);
     a *= b;
-    System.out.println("nilai a x b = " + (a*=b));
+    System.out.println("nilai a x b = " + a);
     a /= b;
-    System.out.println("nilai a : b = " + (a/=b));
+    System.out.println("nilai a : b = " + a);
     a %= b;
-    System.out.println("nilai a % b = " + (a%=b));
+    System.out.println("nilai a % b = " + a);
   }
 }
