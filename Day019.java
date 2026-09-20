@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class slebew {
     public static void main(String[] args) {
       Scanner i = new Scanner(System.in);
