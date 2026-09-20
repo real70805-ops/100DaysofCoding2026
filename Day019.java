@@ -9,12 +9,10 @@ public class slebew {
       System.out.print("Masukkan diskon: ");
       double dis = i.nextDouble();
       
-      System.out.print("\n");
-      
       double hSD = hAw - (dis / 100 * hAw);
       int hAk = (int) hSD;
       
-      System.out.println("Harga awal\t\t: " + hAw);
+      System.out.println("\nHarga awal\t\t: " + hAw);
       System.out.println("Harga setelah diskon : " + hSD);
       System.out.println("Harga akhir\t\t: " + hAk);
     }
