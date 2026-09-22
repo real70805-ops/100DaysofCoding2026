@@ -1,6 +1,5 @@
 import java.util.Scanner;
 public class untitled {
-	
 	public static void main (String[] args) {
 		Scanner i = new Scanner(System.in);
 		 System.out.print("Nama Mahasiswa: ");
