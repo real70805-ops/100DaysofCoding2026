@@ -12,7 +12,7 @@ public class belajar {
         String e;
 
         if (c > 5000) e = "Skala Monumen Nasional";
-        else if (c > 1000) e = "Skala Monumen Kota";
+        else if (c >= 1000) e = "Skala Monumen Kota";
         else e = "Skala Monumen Taman";
 
         System.out.printf("""
