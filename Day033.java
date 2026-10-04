@@ -4,9 +4,9 @@ public class belajar {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Masukkan panjang sisi alas (meter): ");
-        double a = in.nextInt();
+        double a = in.nextDouble();
         System.out.print("Masukkan tinggi limas (meter): ");
-        double b = in.nextInt(), c = ((1 * a * a) / 3 * b);
+        double b = in.nextDouble(), c = ((1 * a * a) / 3 * b);
 
         double a2 = a * a;
         String e;
