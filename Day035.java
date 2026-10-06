@@ -5,7 +5,7 @@ public class Latihan24 {
 		System.out.print("Piih Daya (1=900 VA, 2=1300 VA): ");
 		int a = in.nextInt();
 		System.out.print("Subsidi ? (1=Ya, 2=Tidak ): ");
-		int b = in.nextInt();
+		double b = in.nextInt();
 		System.out.print("Pemakaian (kWh): ");
 		double c = in.nextDouble(), d;
 
