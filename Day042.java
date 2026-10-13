@@ -17,7 +17,7 @@ public class gajiBersih {
             g = "(10%)";
             d = 0.1;
         } else {
-            g = "(10%)";
+            g = "(5%)";
             d = 0.05;
         }
 
