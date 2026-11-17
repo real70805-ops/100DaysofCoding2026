@@ -9,7 +9,7 @@ public class latihan {
 		while (b)  {
 			if (b) {
 			System.out.print("\nUseername\t: ");
-			username = s.nextLine();
+				username = s.nextLine();
 			System.out.println("Panjang\t\t: " + username.length());
 			}
 			
@@ -26,9 +26,9 @@ public class latihan {
 		while (b) {
 			if (b) {
 				System.out.print("Password\t: ");
-				password = s.next();
+					password = s.next();
 				System.out.print("Komfirmasi\t: ");
-				konfirmasi = s.next();
+					konfirmasi = s.next();
 			}
 				
 			if (password.length() < 8 || !password.equals(konfirmasi)) {
@@ -36,7 +36,7 @@ public class latihan {
 			} else {
 				username.toLowerCase();
 				username.trim();
-				break;
+					break;
 			}
 		}
 		
